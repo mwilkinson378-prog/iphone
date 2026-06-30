@@ -1,0 +1,47 @@
+:root {
+    --bg-parchment: #f8f3f2;
+    --text-ink: #0E273C;
+    --accent-sage: #E4E6C3;
+    --accent-earth: #7D7461;
+    --obsidian: #121113;
+}
+
+* { box-sizing: border-box; }
+
+* { box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-parchment);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 460px; /* Maintains the iPhone-like width constraint */
+    margin: 0 auto;   /* Centers the app on desktop/tablet */
+    padding: 40px 24px; /* Professional spacing for top-left start */
+}
+
+.app-header {
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.greeting {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent-earth);
+    margin: 0;
+    font-weight: 500;
+}
+
+.user-name {
+    font-family: 'Cinzel', serif;
+    font-size: 2.2rem;
+    color: var(--text-ink);
+    margin: 8px 0 0 0;
+    line-height: 1.1;
+}
